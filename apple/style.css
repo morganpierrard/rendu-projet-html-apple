@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+/*               End of Setup             */
+
+/* NavBar */
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+a {
+  outline: none;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  margin-top: 2%;
+}
+
+.tel {
+  width: auto;
+  height: auto;
+  margin-left: 12%;
+}
+
+.iphone6 {
+  margin: 200px 0% 0% 5%;
+}
+
+.iphone6 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 100;
+}
+
+.iphone6 img {
+  width: auto;
+  height: auto;  
+}
+
+.iphone6 p {
+  margin: 10px 0px 30px;
+}
+
+.iphone6 a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 300;
+  color: dodgerblue;
+}
+
+/* Sub Hero Section */
+
+.sub {
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.galerie {
+  display: flex;
+  margin: 25px 0px;
+}
+
+.img {
+  height: 180px;
+  min-width: 340px;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center top;
+}
+
+.sub a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: dodgerblue;  
+}
+
+/* Footer */
+
+footer {
+  margin-top: 25px;
+  background-color: #f2f2f2;
+}
+
+.part1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 18%;
+  text-align: left;
+}
+
+.part1 ul {
+  margin: 25px 0px;
+}
+
+.part1 li {
+  margin: 5px 0px;
+}
+
+.part1 p, .part1 a {
+  font-size: 10px;
+}
+
+.part1 p {
+  font-weight: 500;
+  color: #343231;
+}
+
+.part1 a {
+  text-decoration: none;
+  color: dimgray;
+  font-weight: 300;
+}
+
+.part2 {
+  margin: 0px 16% 0px 21%;
+  padding-bottom: 2%;
+}
+
+.part2 p, .part2 a {
+  font-size: 10px;
+  margin: 10px 0px;
+}
+
+.part2 p {
+  color: #929393;
+  font-weight: 300;
+}
+
+.tpl a {
+  text-decoration: none;
+  color: dodgerblue;
+  font-weight: 400;
+}
+
+.copy {
+  display: flex;
+  border-top: solid 1px lightgray;
+}
+
+.copy a {
+  text-decoration: none;
+  color: dimgray;
+  font-weight: 300;
+  margin: 10px 0px;
+  padding: 0px 10px;
+}
+
+.copy img {
+  height: 25px;
+  padding-top: 5px;
+}
+
+.decal {
+  padding-right: 3%;
+}
+
+.border {
+  border-left: solid 1px lightgray;
+}
+
+.usa {
+  margin-left: 22%;
+  display: flex;
+}
+
+.usa_txt {
+  margin: 7px 0px;
+}
